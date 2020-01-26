@@ -1,0 +1,16 @@
+Prezentare proiect:
+	1.Rulezi Seerverul primul cu comanda: gcc server.c -o server -lpthread 
+						./server 2020(portul)
+	2.Rulezi Clientul Nr1 cu comanda: gcc client.c -o client
+					./client 127.0.0.1(adresa ip) 2020(portul)
+	3.Rulezi Clientul Nr2 cu comanda: gcc client.c -o client
+					./client 127.0.0.1(adresa ip) 2020(portul)
+	---> se incepe jocul :)
+SAU
+	1. Rulezi Serverul si Clientul cu comanda:
+		make all
+					./server 2020(portul)
+	2.Rulezi Clientul Nr1 cu comanda:
+					./client 127.0.0.1(adresa ip) 2020(portul)
+	3.Rulezi Clientul Nr2 cu comanda:
+					./client 127.0.0.1(adresa ip) 2020(portul)
